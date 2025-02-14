@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'space-grotesk': ['var(--font-space-grotesk)'],
+      },
     },
   },
   plugins: [],

@@ -1,17 +1,28 @@
-// make a navbar using header. It shoudl be centered with margins on the left and right with 3 buttons (1) 'home' on the left (2)email on the right (3)github on the right
+// components/Navbar.tsx
+import React from 'react';
+import Link from 'next/link';
 
-import Link from "next/link";
-
-export default function Navbar() {
+const Navbar = () => {
   return (
-    <header className="flex justify-between items-center p-4">
-      <div>
-        <Link href="/">Home</Link>
+    <nav className="fixed top-0 left-0 right-0 p-6 flex justify-between items-center">
+      <div className="flex items-center">
+        <Link href="/" className="text-gray-800 hover:text-gray-600">
+          Home
+        </Link>
       </div>
-      <div className="flex gap-4">
-        <Link href="https://www.linkedin.com/in/akash-moorching">LinkedIn</Link>
-        <Link href="https://github.com/amoorching">Github</Link>
+      <div className="flex gap-8">
+        <Link href="/about" className="text-gray-800 hover:text-gray-600">
+            About
+        </Link>
+        <Link href="https://linkedin.com/in/akash-moorching" className="text-gray-800 hover:text-gray-600" target="_blank" rel="noopener noreferrer">
+          Linkedin
+        </Link>
+        <Link href="https://github.com/amoorching" className="text-gray-800 hover:text-gray-600" target="_blank" rel="noopener noreferrer">
+          Github
+        </Link>
       </div>
-    </header>
+    </nav>
   );
-}
+};
+
+export default Navbar;

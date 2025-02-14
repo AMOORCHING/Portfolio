@@ -1,13 +1,12 @@
-import Navbar from "@/components/navbar";
-import Image from "next/image";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       <Navbar />
-      <div className="flex flex-col items-center justify-center h-screen">
-        <h1>Hello World</h1>
-      </div>
-    </div>
+      <Hero />
+    </Layout>
   );
 }
