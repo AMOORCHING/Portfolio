@@ -32,7 +32,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} font-space-grotesk antialiased`}
       >
-        {children}
+        <div className="bg-[#f5f5f5]">
+          {children}
+        </div>
       </body>
     </html>
   );
