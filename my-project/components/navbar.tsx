@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 p-6 flex justify-between items-center">
+    <nav className="fixed top-0 left-0 right-0 p-6 flex justify-between items-center font-poppins">
       <div className="flex items-center">
         <Link href="/" className="text-gray-800 hover:text-gray-600">
           Home
