@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       
       <div className="text-center mt-4">
-        <p className="text-gray-600 mb-4 text-sm sm:text-base font-poppins">I am a software engineer and designer</p>
+        <p className="text-gray-600 mb-4 text-sm sm:text-base font-poppins">i am a software engineer and designer</p>
       </div>
     </main>
   );
