@@ -8,13 +8,13 @@ export default function About() {
     <>
       <Navbar />
       <main className="max-w-4xl mx-auto px-12 py-24 bg-[#f5f5f5] min-h-screen">
-        <h2 className="text-4xl font-bold mb-8 mt-20 text-black">Akash (uh-kahsh)</h2>
+        <h2 className="text-4xl font-neue-montreal font-regular mb-8 mt-20 text-black">Akash (uh-kah-sh)</h2>
         
-        <div className="space-y-4 font-poppins">
+        <div className="space-y-4 font-neue-montreal">
           <p className="mb-10 text-md text-gray-600">
             University of Maryland '26 studying Computer Science, Math, and Public Policy. 
             <br />
-            I'm passionate about crafting UX that leaves lasting, positive impressions.
+            I love designing and building products that help people.
           </p>
           <details className="bg-[#f5f5f5] pb-4 border-b border-gray-200 group">
             <summary className="font-medium cursor-pointer flex justify-between items-center text-black">
@@ -26,7 +26,7 @@ export default function About() {
             </summary>
             <div className="mt-3">
               <p className="mt-3 text-md text-gray-600">
-                filler
+                
               </p>
             </div>
           </details>

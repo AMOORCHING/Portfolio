@@ -15,6 +15,8 @@ export default {
       fontFamily: {
         'space-grotesk': ['var(--font-space-grotesk)'],
         'poppins': ['var(--font-poppins)'],
+        'neue-montreal': ['var(--font-neue-montreal)'],
+        'supply-mono': ['var(--font-supply-mono)'],
       },
     },
   },

@@ -3,18 +3,18 @@
 const Hero = () => {
 
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen px-4">
+    <main className="flex flex-col items-center justify-center min-h-[calc(100vh-73px)] px-4">
       <div className="relative">
-        <div className="relative text-[#000000] text-center mb-4 text-sm sm:text-base font-poppins">
-            <a href="https://saved.gg" target="_blank" rel="noopener noreferrer" className="animate-pulse underline">currently building Saved</a>
+        <div className="relative text-[#9c9c9c] text-center mb-4 text-2xl font-neue-montreal">
+            Product Engineer
         </div>
-        <h1 className="relative text-4xl sm:text-6xl text-gray-800 mb-2 font-semibold">
+        <h1 className="relative text-5xl sm:text-5xl md:text-6xl lg:text-7xl text-gray-800 mb-2 font-medium font-neue-montreal">
           Akash Moorching
         </h1>
       </div>
       
       <div className="text-center mt-4">
-        <p className="text-gray-600 mb-4 text-sm sm:text-base font-poppins">i am a software engineer and designer</p>
+        <p className="text-gray-600 mb-4 text-sm sm:text-base font-supply-mono"></p>
       </div>
     </main>
   );
