@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Space_Grotesk, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import localFont from 'next/font/local';
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const neueMontreal = localFont({
   src: '../public/fonts/PP Neue Montreal - Free for Personal Use v2.6/OTF/PPNeueMontreal-Medium.otf',
@@ -37,6 +38,7 @@ export default function RootLayout({
         <div className="bg-[#f5f5f5]">
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );
