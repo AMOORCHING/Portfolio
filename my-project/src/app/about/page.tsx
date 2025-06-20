@@ -3,10 +3,6 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Image from 'next/image';
-import { Metadata } from 'next';
-
-// Note: Since this is a client component, we'll handle metadata in the parent or use a different approach
-// For now, we'll focus on semantic HTML and content optimization
 
 export default function About() {
   return (
