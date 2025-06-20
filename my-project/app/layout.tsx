@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import localFont from 'next/font/local';
 import "./globals.css";
-import Footer from "../components/Footer";
+import Footer from "@/components/Footer";
 
 const neueMontreal = localFont({
   src: '../public/fonts/PP Neue Montreal - Free for Personal Use v2.6/OTF/PPNeueMontreal-Medium.otf',
