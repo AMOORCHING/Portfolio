@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import localFont from 'next/font/local';
 import "./globals.css";
-import Footer from "../../my-project/components/Footer";
+import Footer from "@/components/Footer";
 
 const neueMontreal = localFont({
-  src: '../public/fonts/PP Neue Montreal - Free for Personal Use v2.6/OTF/PPNeueMontreal-Medium.otf',
+  src: '../../public/fonts/PP Neue Montreal - Free for Personal Use v2.6/OTF/PPNeueMontreal-Medium.otf',
   variable: '--font-neue-montreal',
 });
 
 const supplyMono = localFont({
-  src: '../public/fonts/Supply-Free for Personal Use v2.0/PPSupplyMono-Regular.otf',
+  src: '../../public/fonts/Supply-Free for Personal Use v2.0/PPSupplyMono-Regular.otf',
   variable: '--font-supply-mono',
 });
 
