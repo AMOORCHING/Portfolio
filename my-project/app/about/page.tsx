@@ -39,7 +39,7 @@ export default function About() {
             I recently built <a href="https://www.saved.gg" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-gray-800">Saved</a>, an AI tool used by ~3,000 content creators, and raised ~$100k pre-seed at a $10 million valuation with 2 of my best friends.
             <br />
             <br />
-            Now, I want to work on products at scale to become a better engineer.
+            Now, I&apos;m working on products at scale to become a better engineer.
             <br />
             If you&apos;d like to reach out, please email me at <a href="mailto:akash.moorching@gmail.com" className="underline underline-offset-2 hover:text-gray-800">akash [dot] moorching [at] gmail [dot] com</a> :)
           </p>
