@@ -3,11 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* SEO and Performance Optimizations */
   compress: true,
-  
-  // Enable experimental features for better performance
-  experimental: {
-    optimizeCss: true,
-  },
 
   // Add security and SEO headers
   async headers() {
