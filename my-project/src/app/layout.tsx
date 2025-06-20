@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://moorching.com',
+    url: 'https://portfolio-git-main-amoorchings-projects.vercel.app',
     siteName: 'Akash Moorching',
     title: 'Akash Moorching | Product Engineer & CS Student',
     description: 'Product Engineer and Computer Science student at University of Maryland. Built Saved.gg used by 3,000+ creators, raised $100k pre-seed. Building and designing scalable products.',
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
       { url: '/PortfolioLogo.png', sizes: '180x180' },
     ],
   },
-  metadataBase: new URL('https://moorching.com'),
+  metadataBase: new URL('https://portfolio-git-main-amoorchings-projects.vercel.app'),
   alternates: {
     canonical: '/',
   },
@@ -105,8 +105,8 @@ export default function RootLayout({
               "name": "Akash Moorching",
               "jobTitle": "Product Engineer",
               "description": "Product Engineer and Computer Science student at University of Maryland",
-              "url": "https://moorching.com",
-              "image": "https://moorching.com/MetadataImage.png",
+              "url": "https://portfolio-git-main-amoorchings-projects.vercel.app",
+              "image": "https://portfolio-git-main-amoorchings-projects.vercel.app/MetadataImage.png",
               "alumniOf": {
                 "@type": "CollegeOrUniversity",
                 "name": "University of Maryland"
