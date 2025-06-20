@@ -12,10 +12,10 @@ const Hero = () => {
   return (
     <main className="flex flex-col items-center justify-center min-h-[calc(100vh-65px)] px-4 relative">
       <div className="relative">
-        <div className="relative text-gray-500 text-center mb-4 text-lg sm:text-xl md:text-xl lg:text-2xl font-neue-montreal">
+        <div className="relative text-gray-500 text-center mb-4 text-md sm:text-lg md:text-xl lg:text-2xl font-neue-montreal">
             Product Engineer
         </div>
-        <h1 className="relative text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gray-800 mb-2 font-medium font-neue-montreal">
+        <h1 className="relative text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-gray-800 mb-2 font-medium font-neue-montreal">
           Akash Moorching
         </h1>
       </div>
