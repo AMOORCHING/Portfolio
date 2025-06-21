@@ -41,7 +41,7 @@ export default function About() {
                   className="underline hover:text-gray-600"
                   title="Visit Viraaj Singh's website"
                 >
-                  my friend
+                  my friend Viraaj
                 </a> (right), Oct &apos;24
               </p>
             </div>

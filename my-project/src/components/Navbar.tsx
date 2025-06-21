@@ -9,7 +9,7 @@ interface NavbarProps {
 
 const Navbar = ({ currentPage }: NavbarProps) => {
   return (
-    <nav className="top-0 p-4 flex justify-between items-center border-b border-l border-r border-gray-200 font-neue-montreal mx-4 md:mx-8 lg:mx-36" role="navigation" aria-label="Main navigation">
+    <nav className="relative top-0 p-4 flex justify-between items-center border-b border-l border-r border-gray-200 font-neue-montreal mx-4 md:mx-8 lg:mx-36 z-10 bg-[#f5f5f5]" role="navigation" aria-label="Main navigation">
       <div className="flex items-center">
         <Link href="/" className="text-gray-800 hover:text-gray-500" aria-label="Go to homepage">
           <Image 
