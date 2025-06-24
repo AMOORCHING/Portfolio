@@ -55,7 +55,7 @@ export default function Mahika20th() {
           <motion.p variants={itemVariants}>
             So here&apos;s to crashes, stings, and grace,<br />
             to birthday joy and honeyed space.<br />
-            May your day be weird, and oddly bright—<br />
+            May your day be eclectic, full and bright—<br />
             like bees mid-bump, just out of sight.
           </motion.p>
         </motion.div>
