@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import localFont from 'next/font/local';
 import "./globals.css";
-import Footer from "@/components/Footer";
 // import SEOChecker from "@/components/SEOChecker";
 
 const neueMontreal = localFont({
@@ -13,6 +12,21 @@ const neueMontreal = localFont({
 const supplyMono = localFont({
   src: '../../public/fonts/Supply-Free for Personal Use v2.0/PPSupplyMono-Regular.otf',
   variable: '--font-supply-mono',
+});
+
+const writer = localFont({
+  src: '../../public/fonts/PP Writer - Free for Personal Use/PPWriter-Regular.otf',
+  variable: '--font-writer',
+});
+
+const writerBold = localFont({
+  src: '../../public/fonts/PP Writer - Free for Personal Use/PPWriter-Bold.otf',
+  variable: '--font-writer-bold',
+});
+
+const writerUltrabold = localFont({
+  src: '../../public/fonts/PP Writer - Free for Personal Use/PPWriter-Ultrabold.otf',
+  variable: '--font-writer-ultrabold',
 });
 
 const poppins = Poppins({
@@ -140,12 +154,11 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       </head>
       <body
-        className={`${poppins.variable} ${neueMontreal.variable} ${supplyMono.variable} antialiased`}
+        className={`${poppins.variable} ${neueMontreal.variable} ${supplyMono.variable} ${writer.variable} ${writerBold.variable} ${writerUltrabold.variable} antialiased`}
       >
         <div className="bg-[#f5f5f5]">
           {children}
         </div>
-        <Footer />
         {/* <SEOChecker /> */}
       </body>
     </html>

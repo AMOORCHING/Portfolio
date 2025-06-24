@@ -7,7 +7,7 @@ const Hero = () => {
     <main className="flex flex-col items-center justify-center min-h-[calc(100vh-65px)] px-4 relative mx-4 md:mx-8 lg:mx-36 border-l border-r border-gray-200">
       <header className="relative text-center">
         <div className="relative text-gray-500 mb-4 text-md sm:text-lg md:text-xl lg:text-2xl font-neue-montreal">
-            Product Engineer
+          Building & Designing
         </div>
         <h1 className="relative text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-gray-800 mb-2 font-medium font-neue-montreal">
           Akash Moorching

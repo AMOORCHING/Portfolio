@@ -58,7 +58,7 @@ export default function About() {
                 title="Visit Saved.gg - AI tool for content creators"
               >
                 Saved
-              </a>, an AI tool used by ~3,000 content creators, and raised ~$100k pre-seed at a $10 million valuation with 2 of my best friends.
+              </a>, an AI tool used by ~3,000 content creators, and raised ~$100k pre-seed at a $10 million valuation with 2 of my close friends.
               <br />
               <br />
               Now, I&apos;m working on products at scale to become a better engineer.

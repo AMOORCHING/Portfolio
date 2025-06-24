@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import WorkTitle from "@/components/WorkTitle";
+// import WorkTitle from "@/components/WorkTitle";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <Navbar />
       <Hero />
-      <WorkTitle />
+      {/* <WorkTitle /> */}
     </div>
   );
 }

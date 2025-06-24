@@ -17,6 +17,15 @@ export default {
         'poppins': ['var(--font-poppins)'],
         'neue-montreal': ['var(--font-neue-montreal)'],
         'supply-mono': ['var(--font-supply-mono)'],
+        'writer': ['var(--font-writer)'],
+        'writer-bold': ['var(--font-writer-bold)'],
+        'writer-ultrabold': ['var(--font-writer-ultrabold)'],
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "mahika-bg": "url('/7368c5f4-38a2-487b-a7b1-767cf7ee0a99.png')",
       },
     },
   },
