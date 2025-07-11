@@ -3,6 +3,15 @@
 import Link from 'next/link'
 
 const Hero = () => {
+  // Function to preload the about page image on hover
+  const preloadAboutImage = () => {
+    const link = document.createElement('link');
+    link.rel = 'preload';
+    link.href = '/AboutMeImage.png';
+    link.as = 'image';
+    document.head.appendChild(link);
+  };
+
   return (
     <main className="flex flex-col items-center justify-center min-h-[calc(100vh-65px)] px-4 relative mx-4 md:mx-8 lg:mx-36 border-l border-r border-gray-200">
       <header className="relative text-center">
@@ -19,6 +28,8 @@ const Hero = () => {
           href="/about" 
           className="text-gray-600 hover:text-gray-800 text-sm font-neue-montreal flex items-center gap-1 transition-colors duration-200"
           aria-label="Learn more about Akash Moorching"
+          onMouseEnter={preloadAboutImage}
+          prefetch={true}
         >
           More about me 
           <span className="inline-block" aria-hidden="true">
