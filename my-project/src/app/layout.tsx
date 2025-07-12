@@ -7,98 +7,122 @@ import "./globals.css";
 const neueMontreal = localFont({
   src: '../../public/fonts/PP Neue Montreal - Free for Personal Use v2.6/OTF/PPNeueMontreal-Medium.otf',
   variable: '--font-neue-montreal',
+  display: 'swap',
+  preload: true,
 });
 
 const supplyMono = localFont({
   src: '../../public/fonts/Supply-Free for Personal Use v2.0/PPSupplyMono-Regular.otf',
   variable: '--font-supply-mono',
+  display: 'swap',
+  preload: false,
 });
 
 const writer = localFont({
   src: '../../public/fonts/PP Writer - Free for Personal Use/PPWriter-Regular.otf',
   variable: '--font-writer',
+  display: 'swap',
+  preload: false,
 });
 
 const writerBold = localFont({
   src: '../../public/fonts/PP Writer - Free for Personal Use/PPWriter-Bold.otf',
   variable: '--font-writer-bold',
+  display: 'swap',
+  preload: false,
 });
 
 const writerUltrabold = localFont({
   src: '../../public/fonts/PP Writer - Free for Personal Use/PPWriter-Ultrabold.otf',
   variable: '--font-writer-ultrabold',
+  display: 'swap',
+  preload: false,
 });
 
 const poppins = Poppins({
   weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-poppins',
+  display: 'swap',
 });
 
-export const metadata: Metadata = {
-  title: "Akash Moorching | Product Engineer & CS Student",
-  description: "Product Engineer and Computer Science student at University of Maryland. Built Saved.gg used by 3,000+ creators, raised $100k pre-seed. Building and designing scalable products.",
-  authors: [{ name: "Akash Moorching" }],
-  creator: "Akash Moorching",
-  publisher: "Akash Moorching",
-  keywords: [
-    "Akash Moorching",
-    "Product Engineer",
-    "Computer Science",
-    "University of Maryland",
-    "Software Engineer",
-    "Startup Founder",
-    "Saved.gg",
-    "Full Stack Developer",
-    "Web Developer",
-    "AI Tools"
-  ],
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+// Add preload hints for critical resources
+export const viewport = {
+  themeColor: '#f5f5f5',
+};
+
+export const generateMetadata = async (): Promise<Metadata> => {
+  return {
+    title: "Akash Moorching | Product Engineer & CS Student",
+    description: "Product Engineer and Computer Science student at University of Maryland. Built Saved.gg used by 3,000+ creators, raised $100k pre-seed. Building and designing scalable products.",
+    authors: [{ name: "Akash Moorching" }],
+    creator: "Akash Moorching",
+    publisher: "Akash Moorching",
+    keywords: [
+      "Akash Moorching",
+      "Product Engineer",
+      "Computer Science",
+      "University of Maryland",
+      "Software Engineer",
+      "Startup Founder",
+      "Saved.gg",
+      "Full Stack Developer",
+      "Web Developer",
+      "AI Tools"
+    ],
+    robots: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-  openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: 'https://moorching.com',
-    siteName: 'Akash Moorching',
-    title: 'Akash Moorching | Product Engineer & CS Student',
-    description: 'Product Engineer and Computer Science student at University of Maryland. Built Saved.gg used by 3,000+ creators, raised $100k pre-seed. Building and designing scalable products.',
-    images: [
-      {
-        url: '/MetadataImage.png',
-        width: 1200,
-        height: 630,
-        alt: 'Akash Moorching - Product Engineer',
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
       },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Akash Moorching | Product Engineer & CS Student',
-    description: 'Product Engineer and Computer Science student at University of Maryland. Built Saved.gg used by 3,000+ creators, raised $100k pre-seed.',
-    images: ['/MetadataImage.png'],
-  },
-  icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: '32x32' },
-      { url: '/PortfolioLogo.png', sizes: '180x180', type: 'image/png' },
-    ],
-    apple: [
-      { url: '/PortfolioLogo.png', sizes: '180x180' },
-    ],
-  },
-  metadataBase: new URL('https://moorching.com'),
-  alternates: {
-    canonical: '/',
-  },
+    },
+    openGraph: {
+      type: 'website',
+      locale: 'en_US',
+      url: 'https://moorching.com',
+      siteName: 'Akash Moorching',
+      title: 'Akash Moorching | Product Engineer & CS Student',
+      description: 'Product Engineer and Computer Science student at University of Maryland. Built Saved.gg used by 3,000+ creators, raised $100k pre-seed. Building and designing scalable products.',
+      images: [
+        {
+          url: '/MetadataImage.png',
+          width: 1200,
+          height: 630,
+          alt: 'Akash Moorching - Product Engineer',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Akash Moorching | Product Engineer & CS Student',
+      description: 'Product Engineer and Computer Science student at University of Maryland. Built Saved.gg used by 3,000+ creators, raised $100k pre-seed.',
+      images: ['/MetadataImage.png'],
+    },
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: '32x32' },
+        { url: '/PortfolioLogo.png', sizes: '180x180', type: 'image/png' },
+      ],
+      apple: [
+        { url: '/PortfolioLogo.png', sizes: '180x180' },
+      ],
+    },
+    metadataBase: new URL('https://moorching.com'),
+    alternates: {
+      canonical: '/',
+    },
+    other: {
+      'link': [
+        '</AboutMeImage.png>; rel=preload; as=image',
+        '</PortfolioLogo.png>; rel=preload; as=image',
+      ],
+    },
+  };
 };
 
 export default function RootLayout({
@@ -143,9 +167,9 @@ export default function RootLayout({
         {/* Preload critical resources */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        
         {/* Additional performance hints */}
         <meta name="format-detection" content="telephone=no" />
-        <meta name="theme-color" content="#f5f5f5" />
         {/* Web App Manifest */}
         <link rel="manifest" href="/manifest.json" />
         {/* Additional SEO meta tags */}

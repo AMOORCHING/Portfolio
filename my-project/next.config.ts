@@ -32,6 +32,26 @@ const nextConfig: NextConfig = {
           },
         ],
       },
+      // Cache images for better performance
+      {
+        source: '/(.*)\\.(png|jpg|jpeg|gif|webp|avif|svg|ico)$',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      // Cache fonts
+      {
+        source: '/fonts/(.*)\\.(woff|woff2|eot|ttf|otf)$',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
     ];
   },
 

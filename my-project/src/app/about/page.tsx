@@ -28,12 +28,14 @@ export default function About() {
               <Image
                 src="/AboutMeImage.png"
                 alt="Akash Moorching with Viraaj Singh at University of Maryland, October 2024"
-                width={1000}
-                height={1000}
-                className=""
+                width={800}
+                height={600}
+                className="w-full h-auto max-w-4xl mx-auto"
                 priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
+                style={{ objectFit: 'cover' }}
               />
-              <p className="text-xs text-gray-500 mt-2 font-supply-mono text-right">
+              {/* <p className="text-xs text-gray-500 mt-2 font-supply-mono text-right">
                 Me (left) and <a 
                   href="https://www.viraajsingh.me/" 
                   target="_blank" 
@@ -43,7 +45,7 @@ export default function About() {
                 >
                   my friend Viraaj
                 </a> (right), Oct &apos;24
-              </p>
+              </p> */}
             </div>
           </div>
 
