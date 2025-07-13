@@ -52,7 +52,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
         >
           Github
         </Link>
-        <Link 
+        {/* <Link 
           href="/Akash Moorching Resume.pdf" 
           className="text-gray-500 hover:text-gray-800" 
           target="_blank" 
@@ -61,7 +61,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
           aria-label="Download Akash Moorching's resume (PDF, opens in new tab)"
         >
           CV
-        </Link>
+        </Link> */}
       </div>
     </nav>
   );
