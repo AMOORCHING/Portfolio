@@ -8,24 +8,28 @@ const WorkGrid = () => {
       title: "Saved.gg",
       description: "Co-founded an AI startup in the content-advertisement vertical with 3,000+ users. Raised $100k pre-seed at a $10M valuation.",
       image: "/ascii-saved.png",
+      type: "Full-time"
     },
     {
       id: 2,
       title: "Healthcare Ops",
       description: "Built a technician log analysis tool for CASE (cardiac assesment system) to improve troubleshooting efficiency.",
       image: "/ascii-CASE.png",
+      type: "Internship"
     },
     {
       id: 3,
       title: "Medical Imaging AI",
       description: "Trained a DenseNet-based fracture detection model (97% accuracy), and helped benchmark MSOE's supercomputer for AI use.",
       image: "/ascii-medical-imaging-ai.png",
+      type: "Project"
     },
     {
       id: 4,
       title: "Recruiting Automation",
       description: "Developed a Python-based tool to streamline candidate selection for recruiters, replacing the need for external hiring support.",
       image: "/ascii-recruitment.png",
+      type: "Internship"
     }
   ];
 
@@ -57,8 +61,13 @@ const WorkGrid = () => {
               <div className="h-px bg-gray-200"></div>
               
               {/* Text Section */}
-              <div className="p-6">
-                <h3 className="text-lg font-neue-montreal font-medium mb-3 text-black">{item.title}</h3>
+              <div className="p-6 relative">
+                <div className="flex justify-between items-start mb-3">
+                  <h3 className="text-md font-neue-montreal font-medium text-black">{item.title}</h3>
+                  <span className="text-xs px-2 py-1 font-neue-montreal border border-gray-800 text-gray-800">
+                    {item.type}
+                  </span>
+                </div>
                 <p className="text-gray-600 font-neue-montreal text-sm leading-relaxed">{item.description}</p>
               </div>
             </div>
