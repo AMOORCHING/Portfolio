@@ -4,6 +4,7 @@ import WorkGrid from "@/components/WorkGrid";
 import WorkTitle from "@/components/WorkTitle";
 import Box from "@/components/Box";
 import Footer from "@/components/Footer";
+import CallToAction from "@/components/CallToAction";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <WorkTitle />
       <WorkGrid />
       <Box />
+      <CallToAction />
       <Footer />
     </div>
   );
