@@ -15,7 +15,7 @@ export default function About() {
           
           <div className="space-y-4 font-neue-montreal">
             <p className="mb-10 text-md text-gray-600">
-              I&apos;m a undergraduate at the University of Maryland (&apos;26) studying Computer Science, Math, and Public Policy. 
+              I&apos;m an undergraduate at the University of Maryland (&apos;26) studying Computer Science, Math, and Public Policy. 
               <br />
               I love building and designing solutions to interesting problems.
               <br />
