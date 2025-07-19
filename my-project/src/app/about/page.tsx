@@ -63,7 +63,7 @@ export default function About() {
               </a>, an AI tool used by ~3,000 content creators, and raised ~$100k pre-seed at a $10 million valuation with 2 of my close friends.
               <br />
               <br />
-              Now I&apos;m looking to apply these skills at a company where I can build products that impact millions of users.
+              Now I&apos;m looking to apply my skills at a company where I can build products that impact millions of users.
               <br />
               If you&apos;d like to reach out, please email me at <a 
                 href="mailto:akash.moorching@gmail.com" 
