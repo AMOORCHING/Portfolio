@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
 import WorkGrid from "@/components/WorkGrid";
 import WorkTitle from "@/components/WorkTitle";
 import Box from "@/components/Box";
@@ -16,7 +15,6 @@ export default function Home() {
           <div className="h-full w-px bg-[repeating-linear-gradient(to_bottom,theme(colors.neutral.300),theme(colors.neutral.300)_4px,transparent_4px,transparent_8px)] opacity-50" />
         </div>
       </div>
-      <Navbar />
       <Hero />
       <WorkTitle />
       <WorkGrid />

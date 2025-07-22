@@ -6,7 +6,7 @@ const WorkGrid = () => {
     {
       id: 1,
       title: "Saved.gg",
-      description: "Co-founded an AI startup in the content-advertisement vertical with 3,000+ users. Raised $100k pre-seed at a $10M valuation.",
+      description: "Co-founded an AI startup in the content-advertisement space with 3,000+ users, turning livestreams into short-form content.",
       image: "/ascii-saved.png",
       type: "Full-time"
     },

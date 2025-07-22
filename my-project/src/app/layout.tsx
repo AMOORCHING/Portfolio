@@ -53,17 +53,16 @@ export const viewport = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
-    title: "Akash Moorching | Product Engineer & CS Student",
-    description: "Product Engineer and Computer Science student at University of Maryland. Built Saved.gg used by 3,000+ creators, raised $100k pre-seed. Building and designing scalable products.",
+    title: "Akash Moorching | CS Student & Builder",
+    description: "Computer Science student at University of Maryland. Co-founder of Saved.gg, an AI tool for content creators. Building and designing software solutions.",
     authors: [{ name: "Akash Moorching" }],
     creator: "Akash Moorching",
     publisher: "Akash Moorching",
-    keywords: [
+          keywords: [
       "Akash Moorching",
-      "Product Engineer",
       "Computer Science",
       "University of Maryland",
-      "Software Engineer",
+              "Builder",
       "Startup Founder",
       "Saved.gg",
       "Full Stack Developer",
@@ -86,8 +85,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
       locale: 'en_US',
       url: 'https://moorching.com',
       siteName: 'Akash Moorching',
-      title: 'Akash Moorching | Product Engineer & CS Student',
-      description: 'Product Engineer and Computer Science student at University of Maryland. Built Saved.gg used by 3,000+ creators, raised $100k pre-seed. Building and designing scalable products.',
+      title: 'Akash Moorching | CS Student & Builder',
+      description: 'Computer Science student at University of Maryland. Co-founder of Saved.gg, an AI tool for content creators. Building and designing software solutions.',
       images: [
         {
           url: '/MetadataImage.png',
@@ -99,8 +98,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Akash Moorching | Product Engineer & CS Student',
-      description: 'Product Engineer and Computer Science student at University of Maryland. Built Saved.gg used by 3,000+ creators, raised $100k pre-seed.',
+      title: 'Akash Moorching | CS Student & Builder',
+      description: 'Computer Science student at University of Maryland. Co-founder of Saved.gg, an AI tool for content creators.',
       images: ['/MetadataImage.png'],
     },
     icons: {
@@ -141,8 +140,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Akash Moorching",
-              "jobTitle": "Product Engineer",
-              "description": "Product Engineer and Computer Science student at University of Maryland",
+              "jobTitle": "Builder",
+              "description": "Computer Science student and Builder at University of Maryland",
               "url": "https://moorching.com",
               "image": "https://moorching.com/MetadataImage.png",
               "alumniOf": {

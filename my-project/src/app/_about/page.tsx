@@ -15,7 +15,7 @@ export default function About() {
           
           <div className="space-y-4 font-neue-montreal">
             <p className="mb-10 text-md text-gray-600">
-              I&apos;m an undergraduate at the University of Maryland (&apos;26) studying Computer Science, Math, and Public Policy. 
+              I&apos;m an undergraduate at the University of Maryland (&apos;26) studying Computer Science & Math 
               <br />
               I love building and designing solutions to interesting problems.
               <br />
@@ -63,7 +63,7 @@ export default function About() {
               </a>, an AI tool used by ~3,000 content creators, and raised ~$100k pre-seed at a $10 million valuation with 2 of my close friends.
               <br />
               <br />
-              Now I&apos;m looking to apply my skills at a company where I can build products that impact millions of users.
+              Now I&apos;m looking to apply my skills at a company where I can engineer products that impact millions of users.
               <br />
               If you&apos;d like to reach out, please email me at <a 
                 href="mailto:akash.moorching@gmail.com" 
