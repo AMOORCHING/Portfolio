@@ -53,7 +53,7 @@ export const viewport = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
-    title: "Akash Moorching | CS Student & Builder",
+    title: "Akash Moorching | Builder, CS @ UMD",
     description: "Computer Science student at University of Maryland. Co-founder of Saved.gg, an AI tool for content creators. Building and designing software solutions.",
     authors: [{ name: "Akash Moorching" }],
     creator: "Akash Moorching",
@@ -85,7 +85,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       locale: 'en_US',
       url: 'https://moorching.com',
       siteName: 'Akash Moorching',
-      title: 'Akash Moorching | CS Student & Builder',
+      title: 'Akash Moorching | Builder, CS @ UMD',
       description: 'Computer Science student at University of Maryland. Co-founder of Saved.gg, an AI tool for content creators. Building and designing software solutions.',
       images: [
         {
@@ -98,7 +98,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Akash Moorching | CS Student & Builder',
+      title: 'Akash Moorching | Builder, CS @ UMD',
       description: 'Computer Science student at University of Maryland. Co-founder of Saved.gg, an AI tool for content creators.',
       images: ['/MetadataImage.png'],
     },
