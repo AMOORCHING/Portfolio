@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <main className="flex min-h-screen px-4 relative mx-4 md:mx-8 lg:mx-36 border-l border-r border-gray-200">
       {/* Top left name section */}
-      <div className="absolute top-8 left-8 tracking-wide">
+      <div className="absolute top-8 tracking-wide">
         <h1 className="text-sm text-gray-800 font-medium font-neue-montreal">
           Akash Moorching
         </h1>
