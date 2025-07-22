@@ -38,7 +38,7 @@ const Hero = () => {
               Saved
             </a>, an AI tool used by ~3,000 content creators, and raised ~$100k pre-seed at $10 million post.
             <br /><br />
-            Looking to apply my skills at a company where I can engineer products that impact millions of users :)
+            Looking to work on meaningful products at innovative companies :)
           </p>
           
           <div className="text-gray-500 font-neue-montreal text-sm">
