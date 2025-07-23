@@ -26,7 +26,7 @@ const Hero = () => {
       <div className="flex items-center justify-center w-full">
         <div className="max-w-md text-left">
           <p className="text-gray-600 font-neue-montreal text-sm leading-relaxed mb-6">
-            Undergraduate at the University of Maryland (&#39;26) studying Computer Science & Math.
+            Undergraduate at the University of Maryland studying Computer Science & Math.
             <br /><br />
             Recently built <a 
               href="https://www.saved.gg" 
