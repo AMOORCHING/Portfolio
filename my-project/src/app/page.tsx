@@ -1,9 +1,9 @@
 import Hero from "@/components/Hero";
-import WorkGrid from "@/components/WorkGrid";
-import WorkTitle from "@/components/WorkTitle";
-import Box from "@/components/Box";
-import Footer from "@/components/Footer";
-import CallToAction from "@/components/CallToAction";
+// import WorkGrid from "@/components/WorkGrid";
+// import WorkTitle from "@/components/WorkTitle";
+// import Box from "@/components/Box";
+// import Footer from "@/components/Footer";
+// import CallToAction from "@/components/CallToAction";
 
 export default function Home() {
   return (
@@ -16,11 +16,11 @@ export default function Home() {
         </div>
       </div>
       <Hero />
-      <WorkTitle />
+      {/* <WorkTitle />
       <WorkGrid />
       <Box />
       <CallToAction />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
