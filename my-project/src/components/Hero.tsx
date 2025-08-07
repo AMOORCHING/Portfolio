@@ -36,7 +36,7 @@ const Hero = () => {
               title="Visit Saved.gg - AI tool for content creators"
             >
               Saved
-            </a>, an AI tool used by ~3,000 content creators, and raised ~$100k pre-seed at $10 million post.
+            </a>, an AI tool used by ~3,000 content creators, and raised ~$100k pre-seed at $10M post.
             <br /><br />
             Looking to work on meaningful products at innovative companies :)
           </p>
