@@ -26,9 +26,18 @@ const Hero = () => {
       <div className="flex items-center justify-center w-full">
         <div className="max-w-md text-left">
           <p className="text-gray-600 font-neue-montreal text-sm leading-relaxed mb-6">
-            Undergraduate at the University of Maryland studying Computer Science & Math.
+            Undergraduate at the University of Maryland studying Computer Science & Math
+            — currently building <a 
+              href="https://www.caponier.io" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="underline underline-offset-2 hover:text-gray-800 transition-colors"
+              title="Visit Caponier"
+            >
+              Caponier
+            </a>
             <br /><br />
-            Recently built <a 
+            Recently co-founded <a 
               href="https://www.saved.gg" 
               target="_blank" 
               rel="noopener noreferrer" 
@@ -36,7 +45,7 @@ const Hero = () => {
               title="Visit Saved.gg - AI tool for content creators"
             >
               Saved
-            </a>, an AI tool used by ~3,000 content creators, and raised ~$100k pre-seed at $10M post.
+            </a>, an AI tool used by ~3,500 content creators, and raised ~$100k pre-seed at $10M post.
             <br /><br />
             Looking to work on meaningful products at innovative companies :)
           </p>
