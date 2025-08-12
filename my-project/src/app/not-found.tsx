@@ -15,7 +15,15 @@ export default function NotFound() {
   return (
     <>
       {/* <Navbar /> */}
-      <main className="flex min-h-screen px-4 relative mx-4 md:mx-8 lg:mx-36 border-l border-r border-gray-200 bg-[#f5f5f5]">
+      <div className="relative">
+        <div className="absolute inset-0 z-0 pointer-events-none">
+          <div className="mx-4 flex h-full justify-evenly md:mx-8 lg:mx-36">
+            <div className="h-full w-px bg-[repeating-linear-gradient(to_bottom,theme(colors.neutral.300),theme(colors.neutral.300)_4px,transparent_4px,transparent_8px)] opacity-50" />
+            <div className="h-full w-px bg-[repeating-linear-gradient(to_bottom,theme(colors.neutral.300),theme(colors.neutral.300)_4px,transparent_4px,transparent_8px)] opacity-50" />
+            <div className="h-full w-px bg-[repeating-linear-gradient(to_bottom,theme(colors.neutral.300),theme(colors.neutral.300)_4px,transparent_4px,transparent_8px)] opacity-50" />
+          </div>
+        </div>
+        <main className="flex min-h-screen px-4 relative mx-4 md:mx-8 lg:mx-36 border-l border-r border-gray-200">
         {/* Left side - large text */}
         <div className="flex items-center">
           <div className="max-w-2xl">
@@ -39,6 +47,7 @@ export default function NotFound() {
           </Link>
         </nav>
       </main>
+      </div>
     </>
   )
 } 
