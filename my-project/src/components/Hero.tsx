@@ -34,10 +34,17 @@ const Hero = () => {
               href="https://www.caponier.io" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="underline underline-offset-2 hover:text-gray-800 transition-colors"
+              className="hover:text-gray-800 transition-colors pb-0 relative"
               title="Visit Caponier"
             >
-              <AnimatedText className="underline underline-offset-2 hover:text-gray-800 transition-colors" delay={1.0}>Caponier</AnimatedText>
+              <AnimatedText delay={1.0}>Caponier</AnimatedText>
+              <span 
+                className="absolute bottom-0 left-0 w-full h-px bg-gray-600"
+                style={{
+                  opacity: 0,
+                  animation: 'fadeIn 0.5s ease-in-out 1.5s forwards'
+                }}
+              />
             </a>
             <br /><br />
             <AnimatedText delay={2.0}>
@@ -47,10 +54,17 @@ const Hero = () => {
               href="https://www.saved.gg" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="underline underline-offset-2 hover:text-gray-800 transition-colors"
+              className="hover:text-gray-800 transition-colors pb-0 relative"
               title="Visit Saved.gg - AI tool for content creators"
             >
-              <AnimatedText className="underline underline-offset-2 hover:text-gray-800 transition-colors" delay={2.2}>Saved</AnimatedText>
+              <AnimatedText delay={2.2}>Saved</AnimatedText>
+              <span 
+                className="absolute bottom-0 left-0 w-full h-px bg-gray-600"
+                style={{
+                  opacity: 0,
+                  animation: 'fadeIn 0.5s ease-in-out 2.7s forwards'
+                }}
+              />
             </a>
             <AnimatedText delay={2.4}>
               , an AI tool used by ~3,500 content creators, and raised ~$100k pre-seed at $10M post.
