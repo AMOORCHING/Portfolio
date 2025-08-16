@@ -31,7 +31,7 @@ const Hero = () => {
               Undergraduate at the University of Maryland studying Computer Science & Math — currently building
             </AnimatedText>{" "}
             <a 
-              href="https://www.caponier.io" 
+              href="https://github.com/AMOORCHING/caponier" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="hover:text-gray-800 transition-colors pb-0 relative"
