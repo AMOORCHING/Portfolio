@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useEffect } from 'react'
+import AnimatedText from './AnimatedText'
 
 const Hero = () => {
   // Preload the about page image when component mounts
@@ -15,10 +16,10 @@ const Hero = () => {
       {/* Top left name section */}
       <div className="absolute top-8 tracking-wide">
         <h1 className="text-sm text-gray-800 font-medium font-neue-montreal">
-          Akash Moorching
+          <AnimatedText delay={0}>Akash Moorching</AnimatedText>
         </h1>
         <div className="text-sm text-gray-500 font-neue-montreal">
-          Building; CS @ UMD
+          <AnimatedText delay={0.1}>Building; CS @ UMD</AnimatedText>
         </div>
       </div>
 
@@ -26,28 +27,38 @@ const Hero = () => {
       <div className="flex items-center justify-center w-full">
         <div className="max-w-md text-left">
           <p className="text-gray-600 font-neue-montreal text-sm leading-relaxed mb-6">
-            Undergraduate at the University of Maryland studying Computer Science & Math
-            — currently building <a 
+            <AnimatedText delay={0.2}>
+              Undergraduate at the University of Maryland studying Computer Science & Math — currently building
+            </AnimatedText>{" "}
+            <a 
               href="https://www.caponier.io" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="underline underline-offset-2 hover:text-gray-800 transition-colors"
               title="Visit Caponier"
             >
-              Caponier
+              <AnimatedText className="underline underline-offset-2 hover:text-gray-800 transition-colors" delay={1.0}>Caponier</AnimatedText>
             </a>
             <br /><br />
-            Recently co-founded <a 
+            <AnimatedText delay={2.0}>
+              Recently co-founded
+            </AnimatedText>{" "}
+            <a 
               href="https://www.saved.gg" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="underline underline-offset-2 hover:text-gray-800 transition-colors"
               title="Visit Saved.gg - AI tool for content creators"
             >
-              Saved
-            </a>, an AI tool used by ~3,500 content creators, and raised ~$100k pre-seed at $10M post.
+              <AnimatedText className="underline underline-offset-2 hover:text-gray-800 transition-colors" delay={2.2}>Saved</AnimatedText>
+            </a>
+            <AnimatedText delay={2.4}>
+              , an AI tool used by ~3,500 content creators, and raised ~$100k pre-seed at $10M post.
+            </AnimatedText>
             <br /><br />
-            Looking to work on meaningful products at innovative companies :)
+            <AnimatedText delay={4.0}>
+              Looking to work on meaningful products at innovative companies :)
+            </AnimatedText>
           </p>
           
           <div className="text-gray-500 font-neue-montreal text-sm">
@@ -56,7 +67,7 @@ const Hero = () => {
               className="hover:text-gray-800 transition-colors"
               title="Send email to Akash Moorching"
             >
-              akash[dot]moorching[at]gmail[dot]com
+              <AnimatedText delay={5.0}>akash[dot]moorching[at]gmail[dot]com</AnimatedText>
             </a>
           </div>
         </div>
