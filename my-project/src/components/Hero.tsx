@@ -67,7 +67,7 @@ const Hero = () => {
               />
             </a>
             <AnimatedText delay={2.4}>
-              , an AI tool used by ~3,500 content creators, and raised ~$100k pre-seed at $10M post.
+              , an AI tool used by ~4,000 content creators, and raised ~$100k pre-seed at $10M post.
             </AnimatedText>
             <br /><br />
             <AnimatedText delay={4.0}>
