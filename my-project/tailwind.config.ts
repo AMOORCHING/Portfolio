@@ -25,7 +25,6 @@ export default {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "mahika-bg": "url('/7368c5f4-38a2-487b-a7b1-767cf7ee0a99.png')",
       },
     },
   },
